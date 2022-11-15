@@ -1,0 +1,26 @@
+{
+  "realm" : "Test",
+  "users" : [ {
+    "id" : "dc47c34c-f0c0-48fa-b198-af3643b585cb",
+    "createdTimestamp" : 1668547682231,
+    "username" : "test_user",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Test",
+    "lastName" : "User",
+    "email" : "test@example.com",
+    "credentials" : [ {
+      "id" : "dedf9b23-aa17-4dbd-9776-f234c3fd4ce7",
+      "type" : "password",
+      "createdDate" : 1668547694293,
+      "secretData" : "{\"value\":\"pUbaRCsBpq4ND8yCuworM3RID70h5GniQhwskXAen4S3fJJTNIEJpSh8x7qjFd76e8BPzhKFKtcFfH1Zpn8YdA==\",\"salt\":\"8VY1Cy9k9lQJkWe8SjbqOw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-test" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
